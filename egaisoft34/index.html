@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="active.js"></script>
+<link rel="stylesheet" type="text/css" href="egaihome.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" type="text/css" href="contactbootstrap.css" />
+  <title>eGaisoft</title>
+
+
+</head>
+
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow26.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+
+<section id="home">
+
+
+<nav class="navbar-fixed-top">
+
+
+<div class="topnav" >
+  <div class="topborder">
+  </div>
+
+
+<div id="nav">
+<img src="images/logo.png">
+<ul>
+
+
+<li><a href="#home" onclick="highlite(this);">Home</a></li>
+<div class="dropdown"> 
+    <li><a  href="#services" class=" dropbtn" onclick="highlite(this);">Products</a></li>
+<div class="dropdown-content">
+    <a href="#epra" onclick="showepra();">ePRA</a>
+    <a href="#echit" onclick="showechit();">eCHIT</a>
+    <a href="#emoy" onclick="showemoy();">eMOY</a>
+</div>
+</div>
+<div class="dropdown">
+    <li><a  href="#aboutus" class=" dropbtn" onclick="highlite(this)">About Us</a></li>
+<div class="dropdown-content">
+    <a href="#history" onclick="showhistory();">History</a>
+    <a href="#vision" onclick="showvision();">Vision  Mission Values</a>
+  <!--  <a href="#directors" onclick="showdirectors();">Managing Directors</a> -->
+    <a href="#meet" onclick="showmeet();">Meet The Team</a>
+</div>
+</div>
+
+<li><a href="#contact" onclick="highlite(this);">Contact</a></li>
+
+</ul>
+
+<div class="topborder1">
+</div>
+
+<div class="topbordercap">
+
+</div>
+</div>
+</section>
+</div>
+</nav>
+
+
+<section id="home">
+<div class="full">
+<div class="row homerow">
+  
+  <div class="container-fluid">
+
+ <div class="col-sm-3 part">
+ <div class="card homecard" >
+
+  <div class="ename">
+    <h4 class="first">enthusiastic Team</h4>
+    </div>
+  <div class="card-body">
+    <img src="images/e3.jpg" class="homeimg">
+    <p class="hometext">
+     We are a team of members who love to work on tough challenges and arrive at solutions. Together we share the workload taking responsibility
+     of each module with enthusiastic fervor. Being a team helps in arriving at different solutions for a certain solution leading to choosing
+     the best.</p>
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3 part">
+<div class="card homecard" >
+
+    <div class="ename">
+    <h4 class="first">Great Place To Work</h4>
+    </div>
+      <div class="card-body">
+     <img src="images/great2.jpg" class="homeimg">
+     <p class="hometext">Our workplace provides wonderful opportunities to probe our brain at various angles and consider 
+     in numerous probabilities.The Team works as a solid whole family respecting each other's suggestions and support rendered at every
+     instance. Young minds can learn a lot from this easy atmosphere in a very short time.
+     
+    </p>
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3 part">
+    <div class="card homecard" >
+
+
+<div class="ename">
+    <h4 class="first">aim High</h4>
+    </div>
+      <div class="card-body">
+     <img src="images/a3.png" class="homeimg">
+     <p class="hometext">Setting up a high goal is very important to achieve it. Thus, our aims are always to conquer the world market
+     through our innovative products catering to the specific needs of not only the urban setup but also in rural areas. Through our products, 
+     we have created an easy maintenance of finance and various employment openings in our native town.
+     
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-3 part">
+    <div class="card homecard" >
+    
+    
+    <div class="ename">
+    <h4 class="first">innovative Thinking</h4>
+    </div>
+      <div class="card-body">
+     <img src="images/innovate4.jpg" class="homeimg">
+     <p class="hometext">In today's technology market is introducing a new application or product every-day making the competition very
+     tough. Still, we have targeted unique products like eMOY and eCHIT, which is prevalent in towns and villages. The products have been 
+     designed in such a way to be simple yet effective using innovative technologies. We have plans to work more on such products and bring
+     out successful applications to enhance people's comfort in the near future. 
+    </p>
+    
+    </div>
+    </div>
+    </div>
+    
+</div>
+</div>
+</div>
+</section>
+<!--------------------------products-------------------------->
+<section id="services">
+<h1 style="text-align:center ;color:#ff9933;"><span class="initial">O</span>ur  <span class="initial">S</span>ignature <span class="initial">P</span>roducts</h1>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3 style="text-align:center;">Our services</h3>
+                </div>
+
+                <ul class="list-unstyled components"
+                id="nav">
+                    
+                    <li>
+                        <a onclick="highlite(this); showepra();" href="#epra" ><img style="height:60px;width:60px;" src="images/epraicon.png"><br>ePRA</a>
+                    </li>
+                    <li>
+                        <a href="#echit" onclick="highlite(this); showechit();" ><img style="height:60px;width:60px;" src="images/echit.png"><br>eCHIT</a>
+
+                    </li>
+                    <li>
+                        <a href="#emoy" onclick="highlite(this); showemoy();"><img style="height:60px;width:60px;" src="images/emicon.png" ><br>eMOY</a>
+                    </li>
+                    
+                </ul>
+
+               
+            </nav>
+
+          
+            <div id="content">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid topic">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                <span id="dis">PRODUCTS</span>
+                                <div class="menuicon"> &#9776;</div>
+                            </button>
+                        </div>
+
+                        
+                    </div>
+                </nav>
+<div id="epra" >
+                <center><h2><b>ePRA</b></h2></center>
+				<center><img class="simg1"class="servicetext" src="images/epra11.png" style="margin-right:15px;"></center>
+				
+<p class="servicetext"style="text-indent:0px;">CASCY FORGE PRODUCTS is one of the small-scale industries which manufacturing bolts, screws, pins and rivets for brake, clutch and horn assembly for automotive and engineering applications.</p>
+<p class="servicetext">For inspection and testing of the product, the company has many facilities and also they follow the popular method 8D – the problem solving process by manually entered into the MS-EXCEL to solve critical problems in the production process.</p>
+<p class="servicetext">The goals of this method are to find the root cause of a problem, develop containment actions to protect customers and take corrective action to prevent similar problems in the future.</p>
+<p class="servicetext">ePRA gives a wonderful solution to the Cascy Forge Product to implement their 8D process in a successful manner. It also provides the Rejection Analysis Report specifically on the basis of detected location, source location, supplier name, defect code, etc., They can see their results in the chart representation.</p><br>
+<div class=emptydiv></div>
+</div>
+
+
+<div id="echit" style="display:none;">
+
+<center><h2><b>eCHIT</b></h2></center>
+<center><img class="simg1" class="servicetext" src="images/echitcolor.png" style="margin-right:15px;"> </center>
+			
+<p class="servicetext" style="text-indent: 0px;"> An entity managing a chit fund scheme is usually referred to as a chit fund company. A chit fund company will usually have many different chit fund schemes, with each of the chit fund scheme having a set of members and a limited duration.</p>
+<p class="servicetext">This company’s Operations typically involve floating of chit fund schemes, finding the potential members, enrolling the members into a chit, collecting the contributions, conducting the chit auctions, distributing the funds and then most importantly maintaining the books. The companies earn a fixed amount of the member’s contribution to operating the schemes.</p>
+<p class="servicetext">It is therefore very difficult to maintain the member’s details under different chit fund schemes, Collected Amount and maintaining the books,etc., eCHIT helps the chit fund companies to maintain their Member’s Details, Collected Amount, Pending Amount, Commission Amount and the Settlement Amount easily. They can quickly view periodical reports according to their requirements. It can be represented in the chart reports.</p>
+<p class="servicetext">eCHIT helps to maintain accounts easily when a large number of members based and a large number of chit fund schemes also.</p>
+<div class=emptydiv></div>
+</div>
+
+
+
+
+<div id="emoy" style="display:none;">
+
+<center><h2><b>eMOY</b></h2></center>
+<center>	<img  class="simg1" class="servicetext" src="images/emoylogo.png"style="margin-right:15px;"> </center>
+<p class="servicetext" style="text-indent: 0px;">In South Indian Culture, Gifts received from Guests at Ceremonies plays a major role. After having the feast, attendees started queuing up to gift and the person who is receiving the gift started scribbling entries manually in a thick notebook.  Then the accounting of cash and gifts (also called moy) received from Guests and their details have to be maintained for many years which involve huge work.</p>
+<p class="servicetext">Moy, both received and paid, have to be meticulously accounted, particularly in Usilampatti and surrounding regions in Madurai, with almost every household maintaining a notebook for each ceremony organized by them. Bitter quarrels, and embarrassing relatives over a loudspeaker for not making a moy contribution are often reported. </p>
+<p class="servicetext">eMOY gives best solution to computerize the collection and tracking of moy. Each moy contributor’s name and address was quickly keyed in and a printed receipt handed over as well as they will receive an SMS to their registered Mobile numbers.  The receipt has the details of the function, the money they had given, and a thank you note from the host.</p>
+<p class="servicetext">eMOY also provides details of all moy contributions printed in a tabular format, along with a soft copy, soon after the function ended. The software also enables area-wise analysis of contributions.</p>
+<div class=emptydiv></div>
+
+
+</div>
+				
+            </div>
+        </div>
+		<div class="border">
+		</div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        </section>
+<!----------------------------------/product------------------------->
+<section id="aboutus">
+<h1 style="text-align:center ;color:#ff9933;"><span class="initial">A</span>bout <span class="initial">U</span>s</h1>
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="aboutbar">
+                <div class="aboutbar-header">
+                    <h3 style="text-align:center;">About Us</h3>
+                </div>
+
+                <ul class="list-unstyled components"id="nav">
+            
+                    <li >
+                        <a 
+                         onclick="highlite(this); showhistory();" href="#history"><img style="height:60px;width:60px;" src="images/history.png" ><br>History</a>
+                        
+                    </li>
+                    <li>
+                        <a onclick="highlite(this);
+                        showvision();" href="#vision"><img style="height:60px;width:60px;" src="images/mvv.png" ><br>Vision Mission Values</a>
+                        
+                    </li>
+            <!--        <li>
+                        <a onclick="highlite(this);
+                        showdirectors();" href="#directors"><img style="height:60px;width:60px;" src="images/managers.png" ><br>Managing Directors</a>
+                    </li> -->
+                    <li>
+                        <a onclick="highlite(this);
+                        showmeet();" href="#meet"><img style="height:60px;width:60px;" src="images/team.png" ><br>Meet The Team</a>
+                    </li>
+                    
+                </ul>
+
+               
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="contents">
+
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid topic">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapseone" class="btn btn-info navbar-btn">
+                                <span>Who We Are</span><div class="menuicon"> &#9776;</div>
+                            </button>
+                        </div>
+
+                        
+                    </div>
+                </nav>
+
+<div id="history">
+ 
+                <center><h2><b>History</b></h2></center>
+      <p class="servicetext">eGai Soft is a Software Development firm based in Bangalore. It was
+established in 2017 to provide technology and business process solutions
+to customers. This firm is run by women who are working together as a
+strong unified team.</p>
+
+<p class="servicetext">eGai Soft has a dedicated team of professionals that are fully trained
+and have access to tools and processes to meet the increasingly complex
+needs of our customers.</p>
+
+<p class="servicetext">Our continuous research on consumer behavior provides us with
+knowledge and insight into how customers interact with a software
+solution. This helps us in making the applications more user-friendly.
+eGai Soft provides services of hi-end.</p><br>
+<ul>
+  <li class="ani">IoT-Internet Of Things</li>
+    <li class="ani"> Mobility</li>
+      <li class="ani">Web Solution</li>
+        <li class="ani">IT Application Service</li>
+          <li class="ani">Business Intelligence And Analytics</li>
+</ul>          
+ <h2>Inspiration</h2>
+ 
+<br>
+<h4 style="font-family:'Raleway'; font-size:19px; text-align: justify;"><b>“We make a Living by what we get, but we make a Life by what we give.”</b></h4>
+<b style="float:right;font-family:'sofia';font-size:18px;">– Winston Churchill</b><br><br>
+
+<h4 style="font-family:'Raleway';font-size:19px; text-align: justify;"><b>“We ourselves feel that what we are doing is just a Drop in the ocean.
+But the ocean would be less because of that missing Drop.”</b></h4>
+
+<b style="float:right;font-family:'sofia';font-size:18px;">– Mother Teresa</b>
+   </div>   
+<div id="vision" style="display:none">
+<center><h2><b>Vision Mission Values</b> </h2></center>
+      
+
+    <div class="mvclass">
+        <img class="mvimage" src="images/mvimage3.jpg" style="width:100px;height:100px;">
+        <br><br>
+        <p class="mvpara">To create an environment, where people can work and grow together, as a team.</p></div>
+
+        
+        <div class="mvclass">
+        <img class="mvimage" src="images/mvimage8.jpg" style="width:100px;height:100px;">
+         <br><br>
+        <p class="mvpara" style="text-align: justify;">We strive to become the global software company and being Passionate in helping business through innovative technologies to reach and maximize the business dreams by providing opportunities for persons who are seeking a right platform to work.
+        </p></div>
+      
+            <div class="mvclass">
+        <img class="mvimage" src="images/values1.png" style="width:100px;height:100px;">
+    </div>
+    <br><br>
+      
+
+    
+    <div class="mvclass">
+        <img class="mvimage" src="images/mvimage4.jpg" style="width:100px;height:100px;">
+        <p class="mvparaone">The best preparation for tomorrow is doing the better today.</p>
+    </div>
+
+    <div class="mvclass">
+        <img class="mvimage" src="images/growth.png" style="width:100px;height:100px;">
+        <p class="mvparaone">To ensure that the ability to provide effective customer service, with the growth.</p>
+    </div>
+
+    <div class="mvclass">
+        <img class="mvimage" src="images/mvimage6.jpg" style="width:100px;height:100px;">
+        <p class="mvparaone">Striving for the highest personal achievement.</p>
+    </div>
+
+    <div class="mvclass">
+        <img class="mvimage" src="images/mvimage7.jpg" style="width:100px;height:100px;">
+        <p class="mvparaone">The moral courage to be sincere, reliable and trustworthy at all times.</p>
+    </div>
+</div>
+
+<!--<div id="directors" style="display:none">
+
+    <div class="women">
+      <center><h2 class="heading" ><b>Managing Directors</b></h2></center>
+
+      <h3 style="font-family:'Raleway';font-size: 20px;text-align:center"><b>eGai – The Power 
+      of WOMEN</b></h3><br>
+   <p class="servicetext">We are a team who values honest and transparent communication, focused execution, and we work hard to put our clients first.</p>
+        <br>
+    </div>  
+    <div class="col-md-4">
+      <div class="cardclass">
+   <center><img src="images\newgirl.png"  style="width:50%;"></center> 
+      <div class="overlay">
+        <center><h3 class="check1">Jelcy</h3></center>
+        <center><h4 class="posistion1">Managing Director</h4></center>
+        </div>
+        <center><h1 class="abs">Jelcy</h1></center>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+       <div class="cardclass">
+     <center><img src="images\newgirl.png"  style="width:50%"></center> 
+            <div class="overlay">
+                <center><h3 class="check1">Amutha</h3></center>
+                <center><h4 class="posistion1">Managing Director</h4></center>
+            </div>
+           <center><h1 class="abs">Amutha</h1></center> 
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="cardclass">
+        <center><img src="images\newgirl.png"  style="width:50%"></center> 
+            <div class="overlay">
+<center><h3 class="check1">Subashini</h3></center>
+                    <center><h4 class="posistion1">Managing Director</h4></center>
+            </div>
+            <center><h1 class="abs">Subashini</h1></center>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cardclass">
+        <center><img src="images\newgirl.png"  style="width:50%"></center> 
+            <div class="overlay">
+<center><h3 class="check1">Vijitha</h3></center>
+                <center><h4 class="posistion1">Managing Director</h4></center>
+            </div>
+            <center><h1 class="abs">Vijitha</h1></center>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cardclass">
+         <center><img src="images\newgirl.png"  style="width:50%"></center> 
+            <div class="overlay">
+                <center><h3 class="check1">Revathi</h3></center>
+                <center><h4 class="posistion1">Managing Director</h4></center>
+            </div>
+            <center><h1 class="abs">Revathi</h1></center>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+       <div class="cardclass">
+          <center><img src="images\newgirl.png"  style="width:50%"></center>
+                <div class="overlay">
+                     <center><h3 class="check1">Nirmala</h3></center>
+                     <center><h4 class="posistion1">Managing Director</h4></center>
+                </div>
+        </div>
+        <center><h1 class="abs">Nirmala</h1></center>
+    </div>
+</div> -->
+
+<div id="meet" style="display: none;">
+   <center><h2 class="heading"><b>Meet The Team</b></h2></center>
+
+  <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\magi.png"  style="width:60%"></center>
+      <div class="overlay">
+       <center> <h3 class="check1">Maheshwari</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+        <div>
+        <center><h1 class="abs">Maheshwari</h1></center>
+		<center><h1 class="coder">Developer</h1></center></div>
+        </div>
+  </div>
+    
+    <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\karthick1.png"  style="width:60%"></center>
+      <div class="overlay">
+        <center><h3 class="check1">Karthick</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+        <center><h1 class="abs">Karthick</h1></center>
+		<center><h1 class="coder">Developer</h1></center>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\edison1.png"  style="width:60%"></center>
+      <div class="overlay">
+       <center><h3 class="check1">Robert</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+        <center><h1 class="abs">Robert</h1></center>
+	<center><h1 class="coder">Developer</h1></center>
+      </div>
+    </div>
+<div class=emptydiv></div>
+<div class=emptydiv></div>
+<div class=emptydiv></div>
+    <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\kowsik.png"  style="width:60%"></center>
+      <div class="overlay">
+       <center> <h3 class="check1">Kowsik</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+       <center> <h1 class="abs">Kowsik</h1></center>
+	<center><h1 class="coder">Developer</h1></center>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\google.png"  style="width:60%"></center>
+      <div class="overlay">
+        <center><h3 class="check1">Gokul</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+        <center><h1 class="abs">Gokul</h1></center>
+		<center><h1 class="coder">Developer</h1></center>
+		
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="cardclass">
+      <center><img src="images\vino-5.png"  style="width:60%"></center>
+        <div class="overlay">
+        <center><h3 class="check1">Vinoth</h3></center>
+        <center><h4 class="posistion1">Developer</h4></center>
+        </div>
+        <center><h1 class="abs">Vinoth</h1></center>
+		<center><h1 class="coder">Developer</h1></center>
+      </div>
+    </div>
+    <div class=emptydiv></div>
+<div class=emptydiv></div>
+<div class=emptydiv></div>
+</div>  
+      
+
+                
+            </div>
+        </div>
+
+    <div class="border">
+        </div> 
+
+
+        <!-- jQuery CDN -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapseone').on('click', function () {
+                    $('#aboutbar, #contents').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+        </section>
+		
+		
+		<!-----------------------/aboutus-------------------->
+		<section id="contact">
+		<div class="cointainer-fluid">
+  <div class="panel panel-primary">
+  <div class="heading chead">
+               <h2 style="text-align: center;color:#ff9933;font-style: normal""><span class="initial">G</span>et <span class="initial">I</span>n <span class="initial">T</span>ouch <span class="initial">W</span>ith <span class="initial">U</span>s</h2>
+         </div>
+    <div class="panel-heading"><span class="myhead" style="text-align:center"></span></div>
+    <div class="panel-body">
+      <div class="col-lg-4">
+        <div class="myhead1">
+          <h2 style="text-align:center;color:#fff;font-style: normal"">Get Direction</h2>
+        </div>
+		
+        <div class="map_container mapclass">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.8026357467547!2d77.58790911482077!3d12.856020490931805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6ac191903bd3%3A0xf2d909e7f7aa5fbe!2seGaisoft!5e0!3m2!1sen!2sin!4v1533629122295" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="myhead1">
+          <h2 style="text-align:center;color:#fff;font-style: normal"">Contact Us</h2>
+        </div>
+        <div class="form_container">
+          <form role="form" method="POST" action="https://formspree.io/ssgokulsmart@gmail.com">
+            <div class="form-group">
+              <label>Name:</label>
+              <input type="text" name="name" class="form-control" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="text" name="email" class="form-control" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+              <label>Mobile No:</label>
+              <input type="mobile" name="mobile" class="form-control" placeholder="Enter mobile no" required>
+            </div>
+            <div class="form-group">
+              <label for="pwd">Comments:</label>
+              <textarea class="form-control" name="message" placeholder="Enter Comments" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block" style="font-style: normal; font-size: 15px;">Submit</button>
+            </div>
+          </form>
+        </div>
+      
+      </div>
+      
+      <div class="col-lg-4">
+        <div class="myhead1">
+          <h2 style="text-align:center;color:#fff;font-style: normal"> Address</h2>
+        </div>
+        <div class="form_container">
+          <div class="col-lg-12">
+  <address>        <h3 style="color:#337AB7">eGai Soft</h3>
+            <h5>
+103, Husaini Residency,<br>Bora Layout,<br>
+Bannergatta Road,<br>
+Gottigere,<br>
+Bangalore - 560083.<br></h5><br>
+            <h3 style="color:#337AB7">Phone No.</h3>
+ <h5>080-42332370</h5>
+            <h3 style="color:#337AB7">E-mail Address</h3>
+<h5>support@egaisoft.com </h5><br><br></address>  
+          </div>
+          
+        </div>
+        
+      </div>
+     
+    </div>
+    
+  </div>
+  
+</div>
+</section>
+
+      <!-- ----------------------------------footer------------------------------------ -->
+      <div class="footer">
+              <h4> Copyright &copy; 2018 eGai Soft</h4>
+
+      </div>
+
+</body>
+</html>
